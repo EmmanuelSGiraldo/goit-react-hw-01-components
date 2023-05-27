@@ -1,0 +1,45 @@
+.friend-list{
+  margin: 0%;
+  
+  padding-left: 0%;
+  display: flex;
+  flex-direction: column;
+  /* gap: 40px; */
+  flex-wrap: wrap;
+}
+
+.avatar{
+  margin-top: 10px;                                               
+  margin-left: 20px;
+}
+.cards{
+
+ width: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;                                                                                 
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                              
+
+.online{
+
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;                                                                                   
+  background: chartreuse;
+                                                                                                                             
+  }               
+                                                                                                                                                                                                                                                                     
+.offline{
+
+  width: 20px;
+  height: 20px;                                                                                                                                                                         
+  border-radius: 50%;
+  background: #ff0534;
+
+}
+

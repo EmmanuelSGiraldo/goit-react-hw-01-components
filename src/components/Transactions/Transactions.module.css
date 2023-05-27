@@ -1,0 +1,38 @@
+.transaction-history{
+  width: 900px;
+  border-collapse: collapse;
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  min-width: 400px;
+  margin: 50px;
+}
+
+thead{
+  background-color: rgb(215, 245, 249);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+tbody{
+  background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+tr {
+  border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+td{
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 10px;
+  
+}
