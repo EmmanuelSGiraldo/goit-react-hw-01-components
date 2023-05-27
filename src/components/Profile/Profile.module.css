@@ -16,7 +16,7 @@
   align-items: center;
   justify-content: center;
   padding: 20px 0px;
-  background-color: whitesmoke;
+  background-color: rgb(234, 232, 232);
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   min-width: 400px;
@@ -24,6 +24,7 @@
   margin-bottom: 20px;
   padding-bottom: 20px;
   transition: background-color 0.8s ease;
+  cursor: pointer;
 }
 
 .profile:hover {
@@ -46,6 +47,8 @@
   border-radius: 50%;
   margin-bottom: 30px;
   animation: avatarZoom 2s ease-in-out;
+  transform: scale(1); /* Establece la escala inicial del avatar */
+  transition: transform 0.3s ease;
 }
 
 @keyframes avatarZoom {
@@ -55,6 +58,9 @@
   100% {
     transform: scale(1);
   }
+}.avatar:hover {
+  transform: scale(1.2);
+ background: #e6f4fe ;
 }
 
 .description {
@@ -104,8 +110,6 @@
   border: 0.2;
   list-style: none;
   gap: 1px;
-  
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .stats > li {

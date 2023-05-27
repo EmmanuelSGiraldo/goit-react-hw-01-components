@@ -17,7 +17,7 @@ thead {
 }
 
 tbody {
-  background-color: whitesmoke;
+  background-color:  rgb(234, 232, 232);
   border: 1px solid rgb(0, 0, 0);
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -34,4 +34,11 @@ td {
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 10px;
+  transition: transform 0.4s ease;
+  cursor: pointer;
+}
+
+
+td:hover {
+  background-color:  rgb(92, 90, 90 ) ;
 }
